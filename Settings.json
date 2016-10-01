@@ -1,0 +1,10 @@
+{
+	"Files": [
+		{
+			"ToLanguage": "JSON/C.json",
+			"FromLanguage": "JSON/Python.json",
+			"InputFileName": "hello.py",
+			"OutputFileName": "hello.c"
+		}
+	]
+}

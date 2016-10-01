@@ -1,0 +1,56 @@
+{
+	"EntryPoint": [
+		{
+			"MainStart": "int main() { ",
+			"MainStop": "}"
+		}
+	],
+
+	"Includes": [
+		{
+			"STDIO": "#include <stdio.h>"
+		}
+	],
+
+	"Types": [
+		{
+			"Integer": "int",
+			"Floating-point": "float",
+			"String": "string"
+		}
+	],
+
+	"Function": [
+		{
+			"Start": "void Function(",
+			"End": ") {"
+		}
+	],
+	
+	"Conditionals": [
+		{
+			"ElseIf": "else if",
+			"StartElseIf": " {"
+		}
+	],
+
+	"Variables": [
+		{
+			"Variable": "void Variable = "
+		}
+	],
+
+	"Text": [
+		{
+			"Start": "printf(",
+			"End": ");"
+		}
+	],
+
+	"Characters": [
+		{
+			"Tab": "\t",
+			"Quote": "\""
+		}	
+	]
+}

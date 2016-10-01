@@ -1,0 +1,45 @@
+{
+	"Types": [
+		{
+			"Integer": "Int",
+			"Floating-point": "Float",
+			"String": "String"
+		}
+	],
+
+	"Function": [
+		{
+			"Start": "def Function(",
+			"End": "):"
+		}
+	],
+	
+	"Conditionals": [
+		{
+			"If": "if",
+			"Else": "else",
+			"ElseIf": "elif",
+			"StartElseIf": ":"
+		}
+	],
+
+	"Variables": [
+		{
+			"Variable": "Variable = "
+		}
+	],
+
+	"Text": [
+		{
+			"Start": "print ",
+			"End": "\n"
+		}
+	],
+
+	"Characters": [
+		{
+			"Tab": "\t",
+			"Quote": "\""
+		}	
+	]
+}
