@@ -4,7 +4,17 @@
 			"ToLanguage": "JSON/C.json",
 			"FromLanguage": "JSON/Python.json",
 			"InputFileName": "hello.py",
-			"OutputFileName": "hello.c"
+			"OutputFileName": "hello.c",
+			"Headers": "headers.txt",
+			"EntryPoint": "entrypoint.txt"
+		}
+	],
+
+	"Options": [
+		{
+			"Headers": "true",
+			"EntryPoint": true,
+			"EntryPointEnd": "}"
 		}
 	]
 }

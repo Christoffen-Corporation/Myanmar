@@ -27,6 +27,12 @@ while check < lines_left: # This was explained above 'check'
 	"text." This will allow us to search for keys in one file and output them as
 	mods in the 'InputFile.'
 	"""
+
+	if CheckHeaders == "true":
+		with open(OpenHeaders) as header:  
+      			header = header.readline() 
+		print >> file, str(header) + "\n"
+
 	with open(InputFile) as f: # The file to be converted to another language
 		for text in list(f): 
 			# Convert else if from one lang to the next
@@ -45,7 +51,6 @@ while check < lines_left: # This was explained above 'check'
 				They should instead be checked for. We should split the file into
 				sections instead.
 				"""
-				print >> file, Includes + "\n"
 				print >> file, EntryPointStart 
 
 				Text1 = text.replace(FromTextStart, ToTextStart)
